@@ -2,6 +2,9 @@
 
 This repository contains the source code and assets for my portfolio website. It serves as the central hub for development, collaboration, and version control of the website.
 
+![Preview Image](images/preview.jpg)
+
+
 ## Features
 
 - **HTML/CSS/JavaScript:** The website is built using standard web technologies including HTML, CSS, and JavaScript, ensuring compatibility across a wide range of browsers and devices.
