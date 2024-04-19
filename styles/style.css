@@ -102,3 +102,14 @@ strong {
 p {
   text-align: justify;
 }
+
+.embedded-link {
+  font-weight: 100;
+  color: var(--clr-primary);
+  transition: font-weight 500ms ease-in-out;
+  text-decoration: none;
+}
+
+.embedded-link:hover {
+  font-weight: 700;
+}
