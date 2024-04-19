@@ -37,3 +37,20 @@
 .project-cards:hover img {  
   filter: drop-shadow(0rem 0rem 0.4rem var(--clr-primary));
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .project-cards img {
+    opacity: 0;
+    scale: 0.6;
+    animation: fade-in linear forwards;
+    animation-range: 15vh 50vh;
+    animation-timeline: view();
+  }
+
+  @keyframes fade-in {
+    to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+}
