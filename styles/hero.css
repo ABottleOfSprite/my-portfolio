@@ -1,0 +1,103 @@
+.hero__names {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: white;
+  font-family: "Rubik One Mono", monospace;
+  font-size: 12rem; 
+}
+
+.firstName {
+  position: absolute;
+  top: 0;
+  left: 4vw;
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  letter-spacing: -2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.lastName {
+  position: absolute;
+  bottom: 2vh;
+  right: 1rem;
+  font-size: 6rem;
+  text-orientation: upright;
+  writing-mode: horizontal-tb;
+  letter-spacing: 2rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.quick-links {
+  position: absolute;
+  bottom: 30vh;
+  left: 68vw;
+  text-decoration: none;
+}
+
+.quick-links li {
+  list-style: none;
+  line-height: 2.2rem;
+
+}
+
+.quick-links a {
+  color: white;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  letter-spacing: 0.2rem;
+  color: var(--clr-primary);
+}
+
+.illustration {
+  filter: hue-rotate(230deg);
+  width: 30vw;
+  position: absolute;
+  top: 20vh;
+  left: 24vw;
+}
+
+.fun-underline {
+  position: absolute;
+  width: 15vw;
+  top: 65vh;
+  left: 32vw;
+  filter: invert(1);
+}
+
+.fun-underline img{
+  width: 15vw;
+}
+
+.asterisk {
+  position: absolute;
+  width: 15vw;
+  top: 15vh;
+  right: 32vw;
+  filter: invert(1);
+}
+
+.balloon {
+  position: absolute;
+  width: 8vw;
+  top: 45vh;
+  right: 8vw;
+  filter: invert(1);
+}
+
+.code {
+  position: absolute;
+  width: 21vw;
+  top: 28vh;
+  left: 17vw;
+  filter: invert(1);
+}
