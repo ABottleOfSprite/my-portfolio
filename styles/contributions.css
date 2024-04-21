@@ -1,0 +1,22 @@
+.contributions-title {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 5rem;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.contributions-subTitle {
+  text-align: center;
+  margin-left: 6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.community-contributions p {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  text-align: center;
+}
