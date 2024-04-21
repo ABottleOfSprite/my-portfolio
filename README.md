@@ -1,6 +1,6 @@
 # Welcome to My Portfolio Website Repository!
 
-This repository contains the source code and assets for my portfolio website. It serves as the central hub for development, collaboration, and version control of the website.
+This repository contains the source code and assets for a portfolio website. It serves as the central hub for development, collaboration, and version control of the website.
 
 ![Preview Image](images/preview.jpg)
 
